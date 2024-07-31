@@ -7,7 +7,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 let students = [
-  // Aquí puedes añadir datos iniciales o dejarlo vacío.
+  
 ];
 
 app.get('/students', (req, res) => {
@@ -16,7 +16,7 @@ app.get('/students', (req, res) => {
 
 app.post('/add-student', (req, res) => {
   const newStudent = req.body;
-  newStudent.id = newStudent.id || Date.now(); // Asigna un ID si no tiene
+  newStudent.id = newStudent.id || Date.now(); 
   students.push(newStudent);
   res.json(newStudent);
 });

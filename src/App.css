@@ -1,4 +1,4 @@
-/* Contenedor principal de la aplicación */
+
 .App {
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
   font-family: 'Arial', sans-serif;
 }
 
-/* Estilos para el formulario */
+/* Estilos  formulario */
 .AddStudentForm {
   background-color: #ffffff;
   border-radius: 8px;
@@ -47,7 +47,7 @@
   background-color: #0056b3;
 }
 
-/* Contenedor para las tarjetas de los estudiantes */
+/* tarjetas */
 .student-cards {
   display: flex;
   flex-wrap: wrap;

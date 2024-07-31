@@ -1,4 +1,4 @@
-// backend/studentController.js
+
 const connectToDB = require('./db');
 
 async function addStudent(student) {

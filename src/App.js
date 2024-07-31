@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css'; // Asegúrate de importar el archivo CSS
+import './App.css'; 
 import AddStudentForm from './components/AddStudentForm';
 import StudentCard from './components/StudentCard';
 
@@ -13,11 +13,11 @@ function App() {
         student.id === editingStudent.id ? newStudent : student
       );
       setStudents(updatedStudents);
-      setEditingStudent(null); // Reinicia el estado de edición
+      setEditingStudent(null); 
     } else {
       newStudent.id = Date.now();
       setStudents([...students, newStudent]);
-      setEditingStudent(null); // Asegúrate de reiniciar el estado de edición
+      setEditingStudent(null); 
     }
   };
 
